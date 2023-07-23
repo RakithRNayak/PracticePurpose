@@ -44,6 +44,8 @@ public class Combination {
                 currSet.add(arr[i]);
                 result.add((TreeSet<T>) currSet.clone());
                 currSet.remove(arr[i]);
+
+
             }
         }
         for (int i = index; i < arr.length; i++) {
